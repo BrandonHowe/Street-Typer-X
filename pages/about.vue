@@ -12,6 +12,6 @@
         <p>I used Nuxt.js to make this site. This is my first time using it so you might see some similarities to the Nuxt template. It's great and allows me to skip making a bunch of boilerplate stuff.</p>
         <br>
         <h3>Can I contact you/see your other projects?</h3>
-        <p>Sure thing! You can check me out on <a href="https://github.com/xWafl" target="_blank">Github</a> or on Discord (ImperialWater#2125).</p>
+        <p>Sure thing! You can check me out on <a href="https://github.com/gitxWafl" target="_blank">Github</a> or on Discord (ImperialWater#2125).</p>
     </div>
 </template>

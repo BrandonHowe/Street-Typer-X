@@ -114,7 +114,10 @@
             let nextEle = document.getElementById("next");
             if (nextEle) {
                 if (nextEle.offsetTop > 67) {
-                    document.getElementById("paragraphInput").scrollTop = nextEle.offsetTop - 126;
+                    const ele = document.getElementById("paragraphInput");
+                    if (ele) {
+                        ele.scrollTop = nextEle.offsetTop - 126;
+                    }
                 }
             }
         }
