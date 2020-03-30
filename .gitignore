@@ -88,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Github info
+gh-pages
+gh-pages.pub
