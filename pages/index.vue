@@ -3,7 +3,7 @@
         <div class="typeStatus">
             Chars: {{ currentChars }} Words: {{ currentWords }} CPM: {{ currentCPM.toFixed(0) }} WPM: {{
             currentWPM.toFixed(0) }} Time left: {{ 60 - timeTaken }}
-            <a href="/">
+            <a href="/Street-Typer-X">
                 <div class="duringRestart">Restart</div>
             </a>
         </div>
@@ -52,7 +52,7 @@
                 <p>
                     You have taken this test {{ prevTimes.length }} times. This test was place #{{ place }}.
                 </p>
-                <a href="/">
+                <a href="/Street-Typer-X">
                     <div class="modalRefreshButton">
                         Try again
                     </div>
@@ -190,8 +190,8 @@
 
 <style scoped lang="scss">
     .typeStatus {
-        margin: 10px;
-        width: 100%;
+        margin: 10px auto 10px auto;
+        width: 50%;
         border: 2px solid;
         padding: 10px;
         text-align: center;
@@ -199,8 +199,8 @@
     }
 
     .paragraphInput {
-        margin: 10px;
-        width: 100%;
+        margin: 10px auto 10px auto;
+        width: 50%;
         border: 2px solid;
         padding: 0 10px 0 10px;
         font-size: 24px;
@@ -210,10 +210,10 @@
     }
 
     .typingInput {
-        width: 100%;
+        margin: 10px 25% 10px 25%;
+        width: 50%;
         border: 2px solid;
         padding: 10px;
-        margin: 10px;
         font-size: 24px;
         text-align: center;
     }
