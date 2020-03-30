@@ -53,5 +53,6 @@ module.exports = {
         */
         extend(config, ctx) {
         }
-    }
-}
+    },
+    router: { base: '/Street-Typer-X/' },
+};
